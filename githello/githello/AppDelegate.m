@@ -25,7 +25,7 @@
     return YES;
 }
 
-//dvfdfgvjdfjkj
+//nikitas comment
 
 - (void)applicationWillResignActive:(UIApplication *)application
 {
