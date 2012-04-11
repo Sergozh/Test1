@@ -1,0 +1,444 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A5BF130D15357D11008AA304 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5BF130C15357D11008AA304 /* UIKit.framework */; };
+		A5BF130F15357D11008AA304 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5BF130E15357D11008AA304 /* Foundation.framework */; };
+		A5BF131115357D11008AA304 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5BF131015357D11008AA304 /* CoreGraphics.framework */; };
+		A5BF131715357D11008AA304 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A5BF131515357D11008AA304 /* InfoPlist.strings */; };
+		A5BF131915357D11008AA304 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A5BF131815357D11008AA304 /* main.m */; };
+		A5BF131D15357D11008AA304 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A5BF131C15357D11008AA304 /* AppDelegate.m */; };
+		A5BF132015357D11008AA304 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A5BF131F15357D11008AA304 /* ViewController.m */; };
+		A5BF132315357D11008AA304 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A5BF132115357D11008AA304 /* ViewController.xib */; };
+		A5BF132B15357D11008AA304 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5BF132A15357D11008AA304 /* SenTestingKit.framework */; };
+		A5BF132C15357D11008AA304 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5BF130C15357D11008AA304 /* UIKit.framework */; };
+		A5BF132D15357D11008AA304 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5BF130E15357D11008AA304 /* Foundation.framework */; };
+		A5BF133515357D11008AA304 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A5BF133315357D11008AA304 /* InfoPlist.strings */; };
+		A5BF133815357D11008AA304 /* githelloTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A5BF133715357D11008AA304 /* githelloTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A5BF132E15357D11008AA304 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A5BF12FF15357D10008AA304 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A5BF130715357D11008AA304;
+			remoteInfo = githello;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A5BF130815357D11008AA304 /* githello.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = githello.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5BF130C15357D11008AA304 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A5BF130E15357D11008AA304 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A5BF131015357D11008AA304 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A5BF131415357D11008AA304 /* githello-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "githello-Info.plist"; sourceTree = "<group>"; };
+		A5BF131615357D11008AA304 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A5BF131815357D11008AA304 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A5BF131A15357D11008AA304 /* githello-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "githello-Prefix.pch"; sourceTree = "<group>"; };
+		A5BF131B15357D11008AA304 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A5BF131C15357D11008AA304 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A5BF131E15357D11008AA304 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A5BF131F15357D11008AA304 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A5BF132215357D11008AA304 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		A5BF132915357D11008AA304 /* githelloTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = githelloTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5BF132A15357D11008AA304 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		A5BF133215357D11008AA304 /* githelloTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "githelloTests-Info.plist"; sourceTree = "<group>"; };
+		A5BF133415357D11008AA304 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A5BF133615357D11008AA304 /* githelloTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = githelloTests.h; sourceTree = "<group>"; };
+		A5BF133715357D11008AA304 /* githelloTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = githelloTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A5BF130515357D11008AA304 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5BF130D15357D11008AA304 /* UIKit.framework in Frameworks */,
+				A5BF130F15357D11008AA304 /* Foundation.framework in Frameworks */,
+				A5BF131115357D11008AA304 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5BF132515357D11008AA304 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5BF132B15357D11008AA304 /* SenTestingKit.framework in Frameworks */,
+				A5BF132C15357D11008AA304 /* UIKit.framework in Frameworks */,
+				A5BF132D15357D11008AA304 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A5BF12FD15357D10008AA304 = {
+			isa = PBXGroup;
+			children = (
+				A5BF131215357D11008AA304 /* githello */,
+				A5BF133015357D11008AA304 /* githelloTests */,
+				A5BF130B15357D11008AA304 /* Frameworks */,
+				A5BF130915357D11008AA304 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A5BF130915357D11008AA304 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A5BF130815357D11008AA304 /* githello.app */,
+				A5BF132915357D11008AA304 /* githelloTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A5BF130B15357D11008AA304 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A5BF130C15357D11008AA304 /* UIKit.framework */,
+				A5BF130E15357D11008AA304 /* Foundation.framework */,
+				A5BF131015357D11008AA304 /* CoreGraphics.framework */,
+				A5BF132A15357D11008AA304 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A5BF131215357D11008AA304 /* githello */ = {
+			isa = PBXGroup;
+			children = (
+				A5BF131B15357D11008AA304 /* AppDelegate.h */,
+				A5BF131C15357D11008AA304 /* AppDelegate.m */,
+				A5BF131E15357D11008AA304 /* ViewController.h */,
+				A5BF131F15357D11008AA304 /* ViewController.m */,
+				A5BF132115357D11008AA304 /* ViewController.xib */,
+				A5BF131315357D11008AA304 /* Supporting Files */,
+			);
+			path = githello;
+			sourceTree = "<group>";
+		};
+		A5BF131315357D11008AA304 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A5BF131415357D11008AA304 /* githello-Info.plist */,
+				A5BF131515357D11008AA304 /* InfoPlist.strings */,
+				A5BF131815357D11008AA304 /* main.m */,
+				A5BF131A15357D11008AA304 /* githello-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A5BF133015357D11008AA304 /* githelloTests */ = {
+			isa = PBXGroup;
+			children = (
+				A5BF133615357D11008AA304 /* githelloTests.h */,
+				A5BF133715357D11008AA304 /* githelloTests.m */,
+				A5BF133115357D11008AA304 /* Supporting Files */,
+			);
+			path = githelloTests;
+			sourceTree = "<group>";
+		};
+		A5BF133115357D11008AA304 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A5BF133215357D11008AA304 /* githelloTests-Info.plist */,
+				A5BF133315357D11008AA304 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A5BF130715357D11008AA304 /* githello */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A5BF133B15357D11008AA304 /* Build configuration list for PBXNativeTarget "githello" */;
+			buildPhases = (
+				A5BF130415357D11008AA304 /* Sources */,
+				A5BF130515357D11008AA304 /* Frameworks */,
+				A5BF130615357D11008AA304 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = githello;
+			productName = githello;
+			productReference = A5BF130815357D11008AA304 /* githello.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A5BF132815357D11008AA304 /* githelloTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A5BF133E15357D11008AA304 /* Build configuration list for PBXNativeTarget "githelloTests" */;
+			buildPhases = (
+				A5BF132415357D11008AA304 /* Sources */,
+				A5BF132515357D11008AA304 /* Frameworks */,
+				A5BF132615357D11008AA304 /* Resources */,
+				A5BF132715357D11008AA304 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A5BF132F15357D11008AA304 /* PBXTargetDependency */,
+			);
+			name = githelloTests;
+			productName = githelloTests;
+			productReference = A5BF132915357D11008AA304 /* githelloTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A5BF12FF15357D10008AA304 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = A5BF130215357D10008AA304 /* Build configuration list for PBXProject "githello" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A5BF12FD15357D10008AA304;
+			productRefGroup = A5BF130915357D11008AA304 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A5BF130715357D11008AA304 /* githello */,
+				A5BF132815357D11008AA304 /* githelloTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A5BF130615357D11008AA304 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5BF131715357D11008AA304 /* InfoPlist.strings in Resources */,
+				A5BF132315357D11008AA304 /* ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5BF132615357D11008AA304 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5BF133515357D11008AA304 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A5BF132715357D11008AA304 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A5BF130415357D11008AA304 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5BF131915357D11008AA304 /* main.m in Sources */,
+				A5BF131D15357D11008AA304 /* AppDelegate.m in Sources */,
+				A5BF132015357D11008AA304 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5BF132415357D11008AA304 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5BF133815357D11008AA304 /* githelloTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A5BF132F15357D11008AA304 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A5BF130715357D11008AA304 /* githello */;
+			targetProxy = A5BF132E15357D11008AA304 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A5BF131515357D11008AA304 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A5BF131615357D11008AA304 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A5BF132115357D11008AA304 /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A5BF132215357D11008AA304 /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+		A5BF133315357D11008AA304 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A5BF133415357D11008AA304 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A5BF133915357D11008AA304 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A5BF133A15357D11008AA304 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A5BF133C15357D11008AA304 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "githello/githello-Prefix.pch";
+				INFOPLIST_FILE = "githello/githello-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A5BF133D15357D11008AA304 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "githello/githello-Prefix.pch";
+				INFOPLIST_FILE = "githello/githello-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		A5BF133F15357D11008AA304 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/githello.app/githello";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "githello/githello-Prefix.pch";
+				INFOPLIST_FILE = "githelloTests/githelloTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		A5BF134015357D11008AA304 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/githello.app/githello";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "githello/githello-Prefix.pch";
+				INFOPLIST_FILE = "githelloTests/githelloTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A5BF130215357D10008AA304 /* Build configuration list for PBXProject "githello" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5BF133915357D11008AA304 /* Debug */,
+				A5BF133A15357D11008AA304 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A5BF133B15357D11008AA304 /* Build configuration list for PBXNativeTarget "githello" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5BF133C15357D11008AA304 /* Debug */,
+				A5BF133D15357D11008AA304 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A5BF133E15357D11008AA304 /* Build configuration list for PBXNativeTarget "githelloTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5BF133F15357D11008AA304 /* Debug */,
+				A5BF134015357D11008AA304 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A5BF12FF15357D10008AA304 /* Project object */;
+}
